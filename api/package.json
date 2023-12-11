@@ -1,0 +1,40 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "crypto api project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "pulse",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^4.17.1",
+    "mongoose": "^6.1.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "morgan": "^1.10.0",
+    "node": "^14.19.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-twitter": "^0.1.5",
+    "routes": "^2.1.0"
+  },
+  "keywords": [
+    "express-api"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
